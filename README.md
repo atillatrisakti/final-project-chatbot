@@ -55,10 +55,6 @@ Pastikan Anda sudah menginstal semua library yang dibutuhkan dengan menjalankan 
 ```bash
 pip install -r requirements.txt
 ```
-Aplikasi ini juga menggunakan `pandas` dan `PyPDF2` yang akan diimpor saat file `.csv` atau `.pdf` diunggah. Anda bisa menginstalnya terlebih dahulu:
-```bash
-pip install pandas PyPDF2
-```
 
 ### 4. Konfigurasi Environment Variable
 
@@ -72,8 +68,6 @@ Aplikasi ini memerlukan kunci API dari Google untuk mengakses model Gemini.
 ```
 GOOGLE_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
-
-File `.gitignore` sudah dikonfigurasi untuk mengabaikan file `.env` agar kunci API Anda tidak terekspos ke repository.
 
 ## 🚀 Cara Menjalankan Aplikasi
 
