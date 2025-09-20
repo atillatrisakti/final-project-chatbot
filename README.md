@@ -1,6 +1,6 @@
 # FinWise - AI Financial Advisor Chatbot
 
-FinWise adalah aplikasi web chatbot interaktif yang berfungsi sebagai penasihat keuangan pribadi berbasis AI. Dibangun menggunakan Streamlit dan ditenagai oleh model bahasa canggih dari Google (Gemini-1.5-flash), aplikasi ini dirancang untuk membantu pengguna memahami dan mengelola keuangan mereka dengan lebih baik.
+FinWise adalah aplikasi web chatbot interaktif yang berfungsi sebagai penasihat keuangan pribadi berbasis AI. Dibangun menggunakan Streamlit dan ditenagai oleh model bahasa canggih dari Google (Gemini-2.5-flash), aplikasi ini dirancang untuk membantu pengguna memahami dan mengelola keuangan mereka dengan lebih baik.
 
 ## 📜 Deskripsi Proyek
 
@@ -9,7 +9,7 @@ Tujuan utama dari proyek ini adalah menyediakan asisten virtual yang dapat menja
 ## ✨ Fitur Utama
 
 - **Antarmuka Interaktif**: Tampilan chat yang modern dan mudah digunakan berkat framework Streamlit.
-- **Penasihat Keuangan AI**: Ditenagai oleh model `gemini-1.5-flash` dari Google untuk memberikan jawaban yang akurat dan relevan.
+- **Penasihat Keuangan AI**: Ditenagai oleh model `gemini-2.5-flash` dari Google untuk memberikan jawaban yang akurat dan relevan.
 - **Analisis Dokumen**: Pengguna dapat mengunggah file dalam format `.txt`, `.csv`, atau `.pdf` (seperti laporan pengeluaran atau data keuangan) untuk dianalisis dan mendapatkan *insight*.
 - **Peran & Perilaku Terpersonalisasi**: AI diprogram untuk bertindak sebagai penasihat keuangan profesional yang ramah, edukatif, dan menjaga privasi pengguna.
 - **Manajemen State**: Menyimpan riwayat percakapan selama sesi berlangsung untuk menjaga kontinuitas obrolan.
@@ -18,7 +18,7 @@ Tujuan utama dari proyek ini adalah menyediakan asisten virtual yang dapat menja
 
 - **Bahasa Pemrograman**: Python
 - **Framework Web**: Streamlit
-- **Model AI**: Google Gemini-1.5-flash
+- **Model AI**: Google Gemini-2.5-flash
 - **Orkestrasi AI**: LangChain & LangGraph (khususnya `create_react_agent`)
 - **Manajemen Environment**: `dotenv`
 - **Manipulasi Data**: Pandas (untuk file `.csv`)
